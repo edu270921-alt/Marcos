@@ -17,5 +17,5 @@ int main () {
 
     media = ((2 * nota1) + (3 * nota2) + (5 * nota3)) / 10;
 
-    cout << setprecision(2) << media << endl;
+    cout << fixed << setprecision(2) << media << endl;
 }
