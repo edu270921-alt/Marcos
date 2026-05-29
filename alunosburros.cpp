@@ -28,7 +28,7 @@ int main (){
             valoresI.push_back(numero);
         }
     }
-    cout << "\nDentre os valores temos: " << valoresPA.size() << " sendo eles: \n";
+    cout << "\nDentre os valores pares temos: " << valoresPA.size() << " sendo eles: \n";
     for (auto par : valoresPA){
         cout << par <<endl;
     }
